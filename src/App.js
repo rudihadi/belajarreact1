@@ -9,7 +9,7 @@ const App = () => {
       </div>
       <div className="childright">
         <div className="form">
-          <div>Signs in to INDICO </div>
+          <div>Sign in to INDICO </div>
           <lable className="textform">Email</lable>
           <div>
             <input type="text" placeholder="Email" className="inputemail"/>
