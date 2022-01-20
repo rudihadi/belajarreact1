@@ -1,0 +1,39 @@
+.container{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.childleft{
+  background-color: skyblue;
+  width: 60%;
+  min-height: 100vh;
+}
+
+.childright{
+  background-color: white;
+  width: 40%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form{
+  background-color: tomato;
+  margin-top: 50px;
+  width: 80%;
+  height: 100px;
+}
+
+.textform{
+  margin: 10pc 10px;
+}
+
+.inputemail{
+  border: 1px yellow;
+  padding: 10px 10px 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
